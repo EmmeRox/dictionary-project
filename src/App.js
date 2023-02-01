@@ -9,7 +9,16 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Emmeline</footer>
+        <footer>
+          <a
+            href="https://github.com/EmmeRox/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open Source
+          </a>{" "}
+          by Emmeline Ocampo{" "}
+        </footer>
       </div>
     </div>
   );
