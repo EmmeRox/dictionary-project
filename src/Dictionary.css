@@ -1,3 +1,9 @@
-.Dictionary h2 {
+.Dictionary {
   background-color: aqua;
+}
+
+.container form {
+  box-shadow: 1px 2px 3px salmon;
+  border-radius: 4px;
+  margin: 1.5em 0.3em;
 }
