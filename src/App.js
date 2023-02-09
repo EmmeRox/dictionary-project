@@ -1,11 +1,13 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Dictionary App</header>
+        <header className="App-header">Dictionary</header>
         <main>
           <Dictionary defaultKeyword="welcome" />
         </main>
@@ -15,9 +17,9 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Open Source
+            Open Sourced
           </a>{" "}
-          by Emmeline Ocampo{" "}
+          with <FontAwesomeIcon icon={faHeart} /> by Emmeline Ocampo{" "}
         </footer>
       </div>
     </div>

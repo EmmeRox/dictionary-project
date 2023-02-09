@@ -1,3 +1,7 @@
 .Phonetic a {
   color: maroon;
 }
+
+.Phonetic {
+  padding-left: 0.7em;
+}
