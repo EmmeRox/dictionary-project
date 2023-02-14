@@ -1,10 +1,10 @@
 .Results section {
   box-shadow: 1px 3px 3px gray;
-  margin: 0.7em;
+  margin: 0.7em 0.3em;
   padding: 1em;
   border-radius: 10px;
   background-color: rgb(255, 253, 255);
-  border: 3px solid maroon;
+  border: 2px solid maroon;
   color: rgb(71, 1, 1);
 }
 
@@ -18,8 +18,9 @@
 
 @media (max-width: 740px) {
   .Results section {
-    margin: 0;
+    margin: 0.3em 0;
     padding: 0.6em 0.35em;
+    border: 1px solid maroon;
   }
 
   .Results h2 {
