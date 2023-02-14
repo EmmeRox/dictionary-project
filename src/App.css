@@ -46,3 +46,9 @@ footer a:hover {
     font-size: 25px;
   }
 }
+
+@media (min-width: 400px) {
+  .App main {
+    max-width: 100%;
+  }
+}
